@@ -1,0 +1,15 @@
+@startuml Categorie
+left to right direction
+actor "Admin" as fc
+rectangle Categorie {
+  usecase "Ajouter categorie" as UC1
+  usecase "Suprimer categorie" as UC2
+  usecase "Modifier categorie" as UC3
+  usecase "Consulter categorie" as UC4
+
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> UC4
+@enduml
