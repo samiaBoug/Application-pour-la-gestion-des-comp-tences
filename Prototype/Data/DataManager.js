@@ -1,14 +1,10 @@
 const fs = require("fs");
-// const path = require('path')
+
 // Function to read data from file
 const readData = () => {
   const data = fs.readFileSync("./DB/prototype.json");
   return JSON.parse(data) || [];
-  // if (err.code === "ENOENT") {
-  //   return [];
-  // } else {
-  //   throw new Error("Error reading the file.");
-  // }
+
 };
 
 // Function to write Data back to the file

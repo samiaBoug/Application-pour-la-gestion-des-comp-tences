@@ -42,7 +42,7 @@ const Add = (first_name, last_name) => {
 //   });
 // };
 const listApprenants = ()=>{
-    let apprenants = readData ;
+    let apprenants = readData() ;
     
     console.log(apprenants)
 }
